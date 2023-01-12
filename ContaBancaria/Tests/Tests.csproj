@@ -24,7 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CaixaEletronico\CaixaEletronico.csproj" />
     <ProjectReference Include="..\Infra\Infra.csproj" />
-    <ProjectReference Include="..\UseCases\UseCases.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

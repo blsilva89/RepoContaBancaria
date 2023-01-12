@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/alpine/ContaBancaria/Infra/Infra.csproj": {}
+    "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/Infra.csproj": {}
   },
   "projects": {
-    "/workspaces/alpine/ContaBancaria/Infra/Infra.csproj": {
+    "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/alpine/ContaBancaria/Infra/Infra.csproj",
+        "projectUniqueName": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "/workspaces/alpine/ContaBancaria/Infra/Infra.csproj",
+        "projectPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/Infra.csproj",
         "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/alpine/ContaBancaria/Infra/obj/",
+        "outputPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vscode/.nuget/NuGet/NuGet.Config"

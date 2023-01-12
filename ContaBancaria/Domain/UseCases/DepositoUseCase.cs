@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using ContaBancaria.Infra.Entities;
 using ContaBancaria.Infra.Repositories;
 
-namespace ContaBancaria.UseCases;
+namespace ContaBancaria.Domain.UseCases;
 
 public class DepositoUseCase
 {

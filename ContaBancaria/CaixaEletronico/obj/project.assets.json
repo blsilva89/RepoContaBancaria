@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/alpine/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj",
+      "projectUniqueName": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj",
       "projectName": "CaixaEletronico",
-      "projectPath": "/workspaces/alpine/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj",
+      "projectPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj",
       "packagesPath": "/home/vscode/.nuget/packages/",
-      "outputPath": "/workspaces/alpine/ContaBancaria/CaixaEletronico/obj/",
+      "outputPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/CaixaEletronico/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/vscode/.nuget/NuGet/NuGet.Config"

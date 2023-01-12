@@ -1910,6 +1910,19 @@
           "bin/placeholder/CaixaEletronico.dll": {}
         }
       },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Infra": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1921,19 +1934,6 @@
         },
         "runtime": {
           "bin/placeholder/Infra.dll": {}
-        }
-      },
-      "UseCases/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Infra": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/UseCases.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UseCases.dll": {}
         }
       }
     }
@@ -6657,24 +6657,24 @@
       "path": "../CaixaEletronico/CaixaEletronico.csproj",
       "msbuildProject": "../CaixaEletronico/CaixaEletronico.csproj"
     },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
     "Infra/1.0.0": {
       "type": "project",
       "path": "../Infra/Infra.csproj",
       "msbuildProject": "../Infra/Infra.csproj"
-    },
-    "UseCases/1.0.0": {
-      "type": "project",
-      "path": "../UseCases/UseCases.csproj",
-      "msbuildProject": "../UseCases/UseCases.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "CaixaEletronico >= 1.0.0",
+      "Domain >= 1.0.0",
       "Infra >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "Moq >= 4.18.4",
-      "UseCases >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6686,11 +6686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/alpine/ContaBancaria/Tests/Tests.csproj",
+      "projectUniqueName": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/workspaces/alpine/ContaBancaria/Tests/Tests.csproj",
+      "projectPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Tests/Tests.csproj",
       "packagesPath": "/home/vscode/.nuget/packages/",
-      "outputPath": "/workspaces/alpine/ContaBancaria/Tests/obj/",
+      "outputPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/vscode/.nuget/NuGet/NuGet.Config"
@@ -6705,14 +6705,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/workspaces/alpine/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj": {
-              "projectPath": "/workspaces/alpine/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj"
+            "/workspaces/alpine/RepoContaBancaria/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj": {
+              "projectPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/CaixaEletronico/CaixaEletronico.csproj"
             },
-            "/workspaces/alpine/ContaBancaria/Infra/Infra.csproj": {
-              "projectPath": "/workspaces/alpine/ContaBancaria/Infra/Infra.csproj"
+            "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Domain/Domain.csproj": {
+              "projectPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Domain/Domain.csproj"
             },
-            "/workspaces/alpine/ContaBancaria/UseCases/UseCases.csproj": {
-              "projectPath": "/workspaces/alpine/ContaBancaria/UseCases/UseCases.csproj"
+            "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/Infra.csproj": {
+              "projectPath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/Infra.csproj"
             }
           }
         }

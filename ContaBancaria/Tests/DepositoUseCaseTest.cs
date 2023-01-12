@@ -1,7 +1,7 @@
 using Xunit;
 using ContaBancaria.Infra.Entities;
 using ContaBancaria.Infra.Repositories;
-using ContaBancaria.UseCases;
+using ContaBancaria.Domain.UseCases;
 using Moq;
 
 namespace ContaBancaria.Tests;

@@ -10,3 +10,15 @@
 /workspaces/alpine/ContaBancaria/Infra/obj/Debug/net6.0/Infra.dll
 /workspaces/alpine/ContaBancaria/Infra/obj/Debug/net6.0/ref/Infra.dll
 /workspaces/alpine/ContaBancaria/Infra/obj/Debug/net6.0/Infra.pdb
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/bin/Debug/net6.0/Infra.deps.json
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/bin/Debug/net6.0/Infra.dll
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/bin/Debug/net6.0/ref/Infra.dll
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/bin/Debug/net6.0/Infra.pdb
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/Infra.csproj.AssemblyReference.cache
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/Infra.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/Infra.AssemblyInfoInputs.cache
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/Infra.AssemblyInfo.cs
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/Infra.csproj.CoreCompileInputs.cache
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/Infra.dll
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/ref/Infra.dll
+/workspaces/alpine/RepoContaBancaria/ContaBancaria/Infra/obj/Debug/net6.0/Infra.pdb

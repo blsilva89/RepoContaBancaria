@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E3J/ai6NjMT8+/uOfNuuuhjQnSsdY9mzVX1mGaWmfH/DekCQR1S9z7tgOqwDwmdus8UONtfxXc1IwVpl8i82Lw==",
+  "dgSpecHash": "OIVhd5L4HZNVNncPBXoLz1jfSyCLGfoyYl57Bm1m9ly4V1w15GZrAn+nPcst8ZSA1V+/wdYIL40x1nIr9MKjjw==",
   "success": true,
-  "projectFilePath": "/workspaces/alpine/ContaBancaria/UseCases/UseCases.csproj",
+  "projectFilePath": "/workspaces/alpine/RepoContaBancaria/ContaBancaria/Domain/Domain.csproj",
   "expectedPackageFiles": [
     "/home/vscode/.nuget/packages/microsoft.entityframeworkcore/7.0.2/microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "/home/vscode/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.2/microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
