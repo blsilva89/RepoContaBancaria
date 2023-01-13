@@ -1,13 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Infra\Infra.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>false</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>ContaBancaria.Domain</RootNamespace>
   </PropertyGroup>
 
 </Project>
