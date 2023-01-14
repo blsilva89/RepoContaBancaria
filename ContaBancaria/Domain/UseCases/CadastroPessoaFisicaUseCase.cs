@@ -7,11 +7,11 @@ using ContaBancaria.Domain.Repositories;
 
 namespace Domain.UseCases
 {
-    public class CadastroTitularUseCase
+    public class CadastroPessoaFisicaUseCase
     {
         private readonly IPessoaRepository pessoaRepository;
 
-        public CadastroTitularUseCase(IPessoaRepository pessoaRepository)
+        public CadastroPessoaFisicaUseCase(IPessoaRepository pessoaRepository)
         {
             this.pessoaRepository = pessoaRepository;
         }
@@ -20,15 +20,11 @@ namespace Domain.UseCases
         {
             Fisica pessoaFisica = new Fisica(nome, cep, cpf, rg, dataNascimento);
 
+            if (DateTime.Now.Date.Ticks - dataNascimento.Date.Ticks < 18)
+                throw new ArgumentException("Não é permitido pessoas menores de dezoito anos");
+
             await this.pessoaRepository.gravarPessoaFisica(pessoaFisica);
         }
-        public async Task CadastrarPessoaJuridica(string nome, string cep, string cnpj, string inscricaoEstadual, string nomeFantasia)
-        {
-            Juridica pessoaJuridica = new Juridica(nome, cep, cnpj);
-            pessoaJuridica.InscricaoEstadual = inscricaoEstadual;
-            pessoaJuridica.NomeFantasia = nomeFantasia;
-
-            await this.pessoaRepository.gravarPessoaJuridica(pessoaJuridica);
-        }
+        
     }
 }

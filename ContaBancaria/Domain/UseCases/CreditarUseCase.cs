@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using ContaBancaria.Domain.Entities;
 using ContaBancaria.Domain.Repositories;
 
@@ -15,7 +14,7 @@ public class CreditarUseCase
         this.contaRepository = contaRepository;
     }
 
-    public async Task<decimal> creditar(int codigoConta, decimal valor)
+    public async Task<decimal> Creditar(int codigoConta, decimal valor)
     {
         Conta conta = await this.contaRepository.ObterContaPeloCodigo(codigoConta);
         conta.Saldo += valor;

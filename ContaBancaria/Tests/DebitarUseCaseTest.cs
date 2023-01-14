@@ -1,15 +1,13 @@
+using System;
 using Xunit;
-// using ContaBancaria.Infra.Entities;
-using ContaBancaria.Infra.Repositories;
-using ContaBancaria.Domain.UseCases;
 using Moq;
+using ContaBancaria.Domain.UseCases;
 using ContaBancaria.Domain.Repositories;
 using ContaBancaria.Domain.Entities;
-using System;
 
 namespace ContaBancaria.Tests;
 
-public class DepositoUseCaseTest
+public class DebitarUseCaseTest
 {
     [Fact]
     public void Depositar()
